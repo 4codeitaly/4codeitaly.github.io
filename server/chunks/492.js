@@ -1,0 +1,1 @@
+"use strict";exports.id=492,exports.ids=[492],exports.modules={39492:(t,e,s)=>{s.d(e,{R:()=>useSnapshot});var u=s(88266),d=s(25339),o=s(66462);function useSnapshot(t){let e=(0,u.IO)((0,u.hJ)(d.RZ,t)),[s,r]=(0,o.useState)([]);return(0,o.useEffect)(()=>{let t=(0,u.cf)(e,t=>{let e=t.docs.map(t=>({...t.data(),documentId:t.id}));r(e)});return()=>t()},[t]),s}}};
